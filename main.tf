@@ -1,8 +1,8 @@
 #this file consists of code for instances and sg
 provider "aws" {
 region = "us-west-1"
-access_key = ""
-secret_key = ""
+access_key = "AKIA2NTY5YYPLAV2J3UZ"
+secret_key = "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"
 }
 
 resource "aws_instance" "one" {
@@ -90,7 +90,7 @@ resource "aws_security_group" "five" {
 }
 
 resource "aws_s3_bucket" "six" {
-  bucket = "sairamana1992"
+  bucket = "sairamana1998"
 }
 
 resource "aws_iam_user" "seven" {
